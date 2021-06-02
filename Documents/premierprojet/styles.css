@@ -1,0 +1,127 @@
+body{
+    padding: 30px;
+}
+h4{
+    font-size: 12px;
+    text-align: right;
+    justify-content: space-between;
+    text-align: right;
+    background: border-box;
+    margin-left: 10px;
+}
+    
+.fas{
+    color: blue;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+#conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-content: space-around;
+    background-color: rgb(212, 209, 209);
+    padding: 10px 10px;
+    width: 910px;
+    height: 600px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    float: left;
+    margin: 10px;
+}
+#conteneur img{
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    width: 280px;
+    height: 150px;
+    margin: 10px;
+}
+  .conteneur2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 209, 209);
+    padding: 10px 10px;
+    min-width: 390x;
+    max-width: 390px;
+    min-height: 600px;
+    max-height: 600px;
+    border-radius: 10px;
+    float: right;
+    }
+   .conteneur2 img{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 200px;
+    height: 130px;
+    margin: 30px 10px 10px 10px; 
+    text-align: right;
+  }
+  .conteneur3{
+  }
+  .conteneur3 img{
+     width: 400px;
+     height: 610px;
+     border-radius: 10px;
+     margin: 10px;
+  }
+  .conteneur4{
+
+
+  }
+.flottant{
+    float: left;
+}
+h2{
+  font-size: 14px;
+}
+p{
+    font-size: 10px; 
+    padding: 12px;
+}
+.search-box{
+    display: flex;
+    position: left;
+    background-color: grey;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 40px;
+
+}
+.search-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+color: blue;
+width: 30px;
+border-radius: 10%;
+}
+.recherch{
+    background-color: blue;
+    color: white;
+    padding: auto;
+    border-radius: 0px 10px 10px 0px;
+}
+button{
+    background-color:white;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    color: black;
+    }
