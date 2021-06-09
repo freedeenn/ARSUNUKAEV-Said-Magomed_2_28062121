@@ -3,13 +3,27 @@ h4{
     font-size: 12px;
     text-align: right;
     justify-content: space-between;
-    text-align: right;
     background: border-box;
     margin-left: 10px;
+}
+.black{
+    color: black;
+    text-decoration: none;
+}
+.blue{
+    color: #0065FC;
+    text-decoration: none;
+}
+.blueclair{
+    color: #97b6e4;
+    text-decoration: none;
 }
 h1{
     padding-left: 15px;
     font-size: 20px;
+}
+h2{
+    margin-left: 20px;
 }
 .filter{
     border: 1px solid #F2F2F2; 
@@ -112,11 +126,11 @@ h1{
 .lodging-block3{
     display: flex; 
     flex-direction: column; 
-    padding: 5px; 
+    padding: 0px; 
     background-color: #f8f2f2; 
     border-radius: 10px; 
     margin-right: 10px; 
-    margin-left: 10px;
+    margin-left: 15px;
 }    
 .conteneur6 {
     display: flex;
@@ -124,16 +138,17 @@ h1{
     padding: 5px;
     background-color: #FFFFFF;
     border-radius: 10px;
+    margin-top: 17px;
 }  
 .lodging-block4{
         display: flex; 
         flex-direction: column; 
-        padding: 5px; 
+        padding: 0px; 
         background-color: #f8f2f2; 
         border-radius: 10px; 
         margin-right: 10px; 
-        margin-left: 10px;  
-        margin-top: 55px;
+        margin-left: 15px;  
+        margin-top: 40px;
 }  
 .conteneur7 {
     display: flex;
@@ -151,6 +166,7 @@ h1{
     padding: 5px;
     background-color: #FFFFFF;
     border-radius: 10px;
+    margin-top: 17px;
 }   
 .conteneur5678{
     display: flex;
@@ -162,12 +178,27 @@ h1{
     text-align: left;
     margin: 0px;
     margin-top: 5px;
+    padding: 5px;
 }
 .stars {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 12px;
 } 
+.star{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.burs i{
+    color: black;
+    margin-left: 200px;
+}
+.plus{
+    text-decoration: none;
+    color: black;
+}
 .flattont{
     float: left;
 }
@@ -186,7 +217,7 @@ h1{
     border-top-left-radius: 10px;
     width: 200px;
     height: 150px;
-    margin: 0px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
 
 }    
 .conteneur5 img{
@@ -195,7 +226,7 @@ h1{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 300px;
-    height: 425px;
+    height: 400px;
 }
 .conteneur6 img{
     display: flex;
@@ -211,7 +242,7 @@ h1{
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     width: 300px;
-    height: 425px;
+    height: 400px;
 }
 .conteneur8 img{
     display: flex;
@@ -267,22 +298,37 @@ button{
     width: 200px;
     height: 30px;
     border-radius: 15px;
-    color: black;
     }
     .pied {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         background-color: #F2F2F2;
-        padding: 20px 50px 20px 50px;
+        padding: 20px 40px 20px 40px;
     }
-    lu{
+    ul{
         list-style: none;
     }
     li{
         font-size: 12px;
         margin-top: 5px;
+    }
+    .puse{
+        text-decoration: none;
         color: black;
+    }
+    h7{
+        font-size: 16;
+        display: flex;
+        margin-left: 40px;
+        margin-right: 50px;
+        justify-content: space-between;
+    }
+    h5{
+        margin-left: 10px;
+    }
+    h6{
+        margin-left: 10px;
     }
     section{
         display: flex;
