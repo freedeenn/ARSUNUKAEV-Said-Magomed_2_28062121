@@ -47,6 +47,10 @@ h2{
     justify-content: space-between;
     padding-left: 15px;
 }
+#logo img{
+    width: 100px;
+    height: 60px;
+}
 .btn{
     display: flex;
     margin-left: 30px;
