@@ -10,16 +10,19 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
     <div id="bloc_page"></div>
     <header>
         <div id="titre_principal">
             <div id="logo">
                 <img src="Reservia.png" alt="rezervia" />
+                <div class="menu-blue">
+                    <h4><a class="blue" href="#">S'inscrire</a></h4>
+                </div>
                 <div class="menu">
                     <h4><a class="blueclair" href="#">Hébergements</a></h4>
                     <h4><a class="black" href="#">Activités</a></h4>
-                    <h4><a class="blue" href="#">S'inscrire</a></h4>
                 </div>
             </div>
         </div>
@@ -28,39 +31,34 @@
             <p>En plein centre ville ou en plein nature</p>
         </div>
         <div class="search-box"><i class="fas fa-map-marker-alt"></i>
-            <input type="text" class="search-txt" placeholder="Rechercher">
-            <button class="recherch">Rechercher</button>
+            <input type="text" class="search-txt borderNone" placeholder="Marseille, France">
+            <button class="recherch borderNone"><i class="fas fa-search"></i><span>Recharcher</span></button>
         </div>
         <nav>
-            <div class="btn"><strong>Filtres</strong>
-                <a class="filter"><i class="fas fa-money-bill-wave"></i>
-                    <!--react-text: 902 -->
-                    Economique
-                    <!--/react-text -->
-                </a>
-                <a class="filter"><i class="fas fa-child"></i>
-                    <!--react-text: 902 -->
-                    Familial
-                    <!--/react-text -->
-                </a>
-                <a class="filter"><i class="fas fa-heart"></i>
-                    <!--react-text: 902 -->
-                    Romantique
-                    <!--/react-text -->
-                </a>
-                <a class="filter"><i class="fas fa-dog"></i>
-                    <!--react-text: 902 -->
-                    Animaux autorisés
-                    <!--/react-text -->
-                </a>
+            <div class="btn">
+                <p><strong>Filtres</strong></p>
+                <div class="btn1">
+                    <a class="filter"><i class="fas fa-money-bill-wave"></i>
+                          <strong>Économique</strong>
+                    </a>
+                    <a class="filter"><i class="fas fa-child"></i>
+                        <strong>Familial</strong>
+                    </a>
+                    <a class="filter"><i class="fas fa-heart"></i>
+                    <strong>Romantique</strong>
+                    </a>
+                    <a class="filter"><i class="fas fa-dog"></i>
+                    <strong>Animaux autorisés</strong>
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
 
-    <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
-    <section>
+    <a class="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</a>
+    <section class="hebergement">
         <div class="conteneur">
-            <h2>Hébergement à Marseille</h2>
+            <h2 class="text-hebergement">Hébergement à Marseille</h2>
             <div class="row">
                 <div class="lodging-block">
                     <a href="1.jpg"><img src="1.jpg" alt="" /></a>
@@ -149,7 +147,8 @@
                         </div>
                     </div>
                 </div>
-            </div><h5><a class="plus" href="#">Afficher plus</a></h5>
+            </div>
+            <h5><a class="plus" href="#">Afficher plus</a></h5>
 
         </div>
         <div class="conteneur4">
@@ -256,20 +255,23 @@
 
     <footer>
         <div class="pied">
-            <div><h7>A propos</h7>
+            <div>
+                <p><strong>A propos</strong></p>
                 <ul>
                     <li><a class="puse" href="#">Fonctionnement du site</a></li>
                     <li><a class="puse" href="#">Conditions générales de vente</a></li>
                     <li><a class="puse" href="#">Données et confidentialité</a></li>
                 </ul>
             </div>
-            <div><h7>hébergements</h7>
+            <div>
+                <p><strong>hébergements</strong></p>
                 <ul>
                     <li><a class="puse" href="#">Charte qualité</a></li>
                     <li><a class="puse" href="#">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
-            <div><h7>Assistance</h7>
+            <div>
+                <p><strong>Assistance</strong></p>
                 <ul>
                     <li><a class="puse" href="#">Centre d'aide</a></li>
                     <li><a class="puse" href="#">Nous contacter</a></li>

@@ -1,13 +1,29 @@
-
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'ralewaythin';
+    
+}
 h4{
     font-size: 12px;
     text-align: right;
     justify-content: space-between;
-    background: border-box;
     margin-left: 10px;
+    
+}
+.menu-blue{
+    position: absolute;
+    right: 30px;
+    border-top: none;
+    
 }
 .black{
-    color: black;
+    color: grey;
     text-decoration: none;
 }
 .blue{
@@ -17,6 +33,10 @@ h4{
 .blueclair{
     color: #97b6e4;
     text-decoration: none;
+    margin-right: 40px;
+    border-top: solid #0065FC 2px;
+    width: 60px;
+    padding-top: 23px;
 }
 h1{
     padding-left: 15px;
@@ -27,10 +47,11 @@ h2{
     margin-left: 20px;
 }
 .filter{
-    border: 1px solid #F2F2F2; 
+    border: 2px solid #F2F2F2; 
     border-radius: 50px;
     padding-right: 15px;
     margin-left: 30px;
+    cursor: pointer;
 }
 .filter i{
     background-color: #DEEBFF;
@@ -53,23 +74,31 @@ h2{
 }
 .btn{
     display: flex;
+    margin-top: 30px ;
+    
+}
+.btn1{
+    display: flex;
     margin-left: 30px;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 0px;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 .menu{
     display: flex;
     flex-direction: row;
     padding: 0px 10px;
+    margin-right: 110px;
 }
 .conteneur {
     width: 65%;
     padding: 5px;
     background-color:#F2F2F2;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-right: 10px;
-    margin-left: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
 .row{
     display: flex;
@@ -82,9 +111,10 @@ h2{
     flex-direction: column; 
     padding: 5px; 
     background-color: #FFFFFF; 
-    border-radius: 10px; 
+    border-radius: 15px; 
     margin-right: 10px; 
     margin-left: 10px;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
 }
 .lodging-block h3, .lodging-block h4 {
     text-align: left; 
@@ -94,10 +124,11 @@ h2{
 #conteneur img{
     display: flex;
     align-items: flex-start;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     width: 280px;
     height: 150px;
+    margin: 0px 0px 0px 0px;
 }
 .stars {
     margin-top: 5px;
@@ -108,15 +139,14 @@ h2{
     width: 30%;
     padding: 5px;
     background-color:#F2F2F2;
-    height: 600px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 0px 10px 0px 10px;
 }
 .lodging-block2{
     display: flex; 
     padding: 5px; 
     background-color: #FFFFFF; 
-    border-radius: 10px; 
+    border-radius: 15px; 
     margin-right: 10px; 
     margin-left: 10px;
     margin-bottom: 15px;
@@ -126,15 +156,18 @@ h2{
     flex-direction: column;
     padding: 5px;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .lodging-block3{
     display: flex; 
     flex-direction: column; 
     padding: 0px; 
-    background-color: #F2F2F2; 
-    border-radius: 10px; 
+    background-color: #FFFFFF; 
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border-radius: 15px; 
     margin-right: 10px; 
     margin-left: 15px;
 }    
@@ -143,15 +176,18 @@ h2{
     flex-direction: column;
     padding: 5px;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-top: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
 }  
 .lodging-block4{
         display: flex; 
         flex-direction: column; 
         padding: 0px; 
-        background-color: #F2F2F2; 
-        border-radius: 10px; 
+        background-color: #FFFFFF; 
+        box-shadow: 5px 5px 5px 5px #F2F2F2;
+        border-radius: 15px; 
         margin-right: 10px; 
         margin-left: 15px;  
         margin-top: 40px;
@@ -161,24 +197,28 @@ h2{
     flex-direction: column;
     padding: 5px;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-top: 55px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }    
 .conteneur8 {
     display: flex;
     flex-direction: column;
     padding: 5px;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-top: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
 }   
 .conteneur5678{
     display: flex;
     padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 } 
 .conteneur h3 .conteneur h5 {
     text-align: left;
@@ -201,6 +241,14 @@ h2{
     color: black;
     margin-left: 200px;
 }
+.info i{
+    font-size: 10px;
+    border: solid 2px #F2F2F2;
+    border-radius: 50px;
+    padding: 5px 8px 5px 8px ;
+    margin: 20px 10px 20px 5px;
+    cursor: pointer;
+}
 .plus{
     text-decoration: none;
     color: black;
@@ -211,50 +259,51 @@ h2{
 .conteneur img {
     display: flex;
     align-items: flex-start;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     width: 280px;
     height: 150px;
+    
 }    
 .conteneur4 img {
     display: flex;
     flex-direction: column;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
     width: 200px;
     height: 150px;
-    margin: 5px 5px 5px 5px;
+    margin: 0px 0px 0px 0px;
 
 }    
 .conteneur5 img{
     display: flex;
     flex-direction: flex-start;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     width: 300px;
     height: 400px;
 }
 .conteneur6 img{
     display: flex;
     flex-direction: flex-start;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     width: 300px;
     height: 150px;
 }
 .conteneur7 img{
     display: flex;
     flex-direction: flex-start;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     width: 300px;
     height: 400px;
 }
 .conteneur8 img{
     display: flex;
     flex-direction: flex-start;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     width: 300px;
     height: 150px;
 }
@@ -265,27 +314,32 @@ h2{
 p{
     display: flex;
     flex-direction: row;
-    font-size: 11px; 
+    font-size: 14px; 
     padding: 5px;
     padding-left: 20px;
 }
 .search-box i{
-    padding: 10px 0px 5px 5px;
+    padding: 10px;
     text-align: center;
-    color: grey;
+    color: black;
+    background-color:#F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
 
 }
 .search-box{
     display: flex;
-    position: left;
-    background-color:#F2F2F2;
+    position: left;  
     width: 20px;
     height: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding-left: 15px;
     margin-top: 20px;
     margin-left: 15px;
+}
+.borderNone{
+    border: solid #F2F2F2 1px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .search-btn{
 display: flex;
@@ -301,36 +355,35 @@ border-radius: 10%;
     padding: auto;
     border-radius: 0px 10px 10px 0px;
 }
+.recherch i{
+    display: none;
+}
 button{
     background-color:white;
     width: 200px;
     height: 40px;
     border-radius: 15px;
+    cursor: pointer;
     }
     .pied {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         background-color: #F2F2F2;
-        padding: 20px 40px 20px 40px;
+        padding: 10px 40px 10px 0px;
     }
     ul{
         list-style: none;
     }
     li{
-        font-size: 12px;
-        margin-top: 5px;
+        font-size: 14px;
+        margin: 5px;
+        margin-left: -20px;
+        margin-right: 300px;
     }
     .puse{
         text-decoration: none;
         color: black;
-    }
-    h7{
-        font-size: 16;
-        display: flex;
-        margin-left: 40px;
-        margin-right: 50px;
-        justify-content: space-between;
     }
     h5{
         margin-left: 10px;
@@ -345,45 +398,171 @@ button{
     body{
         padding: 10px;
     }
-    .container4{
+    #logo{
+        padding-left: 0px;
+    }
+    .search-box{
+        min-width: 90%;
+        margin-left: 0px;
+        margin-bottom: -30px;
+    }
+    .search-text{
+        width: 80%;
+    }
+    .search-btn{
+        max-width: 10px;
+    }
+    button{
+        width: 50px;
+    }
+    .recherch span{
+        display: none;
+    }
+    .recherch i{
+        display: block;
+        color: #FFFFFF;
+        background-color: #0065FC;
+    }
+    .recherch{
+        border-radius: 10px 10px 10px 10px;
+    }
+    .conteneur4{
         flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+        border-radius: 0px;
     }  
+    .conteneur4 img{
+        width: 120px;
+    }
+    .burs i{
+        margin-left: 120px;
+    }
+    .info i{
+        margin: 20px 10px 0px 0px
+    }
     .conteneur{
         flex-direction: column;
-    }  
+        width: 100%;
+        background-color: #FFFFFF;
+        margin: 0px;
+        margin-left: -5px;
+    }
+    .text-hebergement{
+        margin-left: 10px;
+    }
+    .conteneur img{
+        width: 100%;
+    }
+    .hebergement{
+        flex-direction: column-reverse;
+    }
     .conteneur5678{
         flex-direction: column;
-        width: auto;
+        width: 100%;
+        margin: 0px;
     }
     .row{
         flex-direction: column;
+        margin: 0px;
     }
     .lodging-block{
         flex-direction: column;
         margin-bottom: 15px;
         width: auto;
+        padding: 0px;
     }
     .lodging-block2{
-        flex-direction: column;
-        width: auto;
+        display: flex;
+        text-align: left;
     }
     .lodging-block3{
         flex-direction: column;
-        width: auto;
+        width: 100%;
+        margin: -8px 0px 0px 0px;
+        padding: 0px;
     }
     .lodging-block4{
         flex-direction: column;
-        width: auto;
+        width: 100%;
+        margin: 0px 0px 14px 0px;
+        padding: 0px;
     }
-    
     .menu{
-        flex-direction: column-reverse;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
         }
-    .btn{
+        #logo{
+            flex-direction: column;
+        }
+    .btn, .btn1{
         flex-wrap: wrap;
-    }    
+        width: 100%;
+        margin-left: -3px;
+    }  
+    .filter{
+        margin: 10px;
+    }
+
     .pied{
         flex-direction: column;
+        padding-left: 10px;
+    }
+    .conteneur5678 img{
+        height: 130px;
+        width: 100%;
+        margin: 0px;
+    }
+    .conteneur5{
+        margin: 0px 0px 5px 0px;
+    }
+    .conteneur6{
+        margin: 0px 0px 0px 0px;
+    }
+    .conteneur7{
+        margin: 0px 0px 5px 0px;
+    }
+    .conteneur8{
+        margin: 0px;
+    }
+    h1{
+        padding-left: 0px;
+    }
+    h2{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    li{
+        margin-right: 0px;
+        margin-left: -35px;
+    }
+    p{
+        padding-left: 5px;
+        margin-bottom: -10px;
+    }
+    .blueclair{
+        border-top: none;
+        border-bottom: solid 3px #0065FC;
+        padding-bottom: 15px;
+        border-width: 50%;
+    }
+    .black{
+        margin-right: 30px;
+        border-bottom: solid 3px #F2F2F2;
+        padding-bottom: 15px;
+        border-width: solid 50%;
+    }
+    .blue{
+        margin-right: -10px;
+    }
+    .burs{
+        margin-left: 15px;
+    }
+    .borderNone{
+        border-right: none;
+
     }
    
     
