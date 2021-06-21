@@ -208,6 +208,7 @@ h2{
     margin-right: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 5px;
 }
 .lodging-block3{
     display: flex; 
@@ -217,7 +218,7 @@ h2{
     box-shadow: 5px 5px 5px 5px #F2F2F2;
     border-radius: 15px; 
     margin-right: 10px; 
-    margin-left: 15px;
+    margin-left: 10px;
 }    
 .conteneur6 {
     display: flex;
@@ -225,20 +226,26 @@ h2{
     padding: 5px;
     background-color: #FFFFFF;
     border-radius: 15px;
-    margin-top: 17px;
     margin-left: 5px;
     margin-right: 5px;
 }  
 .lodging-block4{
         display: flex; 
         flex-direction: column; 
-        padding: 0px; 
         background-color: #FFFFFF; 
         box-shadow: 5px 5px 5px 5px #F2F2F2;
         border-radius: 15px; 
         margin-right: 10px; 
-        margin-left: 15px;  
-        margin-top: 40px;
+        margin-left: 10px; 
+}  
+.lodging-block5{
+    display: flex; 
+    flex-direction: column; 
+    background-color: #FFFFFF; 
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    border-radius: 15px; 
+    margin-right: 10px; 
+    margin-left: 10px; 
 }  
 .conteneur7 {
     display: flex;
@@ -246,7 +253,7 @@ h2{
     padding: 5px;
     background-color: #FFFFFF;
     border-radius: 15px;
-    margin-top: 55px;
+    margin-top: 60px;
     margin-left: 5px;
     margin-right: 5px;
 }    
@@ -256,18 +263,53 @@ h2{
     padding: 5px;
     background-color: #FFFFFF;
     border-radius: 15px;
-    margin-top: 17px;
+    margin-top: 60px;
+    margin-bottom: 28px;
     margin-left: 5px;
     margin-right: 5px;
 }   
+.conteneur9 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 28px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.conteneur10 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}    
 .conteneur5678{
     display: flex;
-    padding: 5px;
-    margin-left: 10px;
+    padding: 15px;
+    margin-left: -5px;
     margin-right: 10px;
     margin-bottom: 50px;
     margin-top: 30px;
+    width: 100%;
 } 
+.conteneur69 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    height: 340px;
+}  
+.conteneur108 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}  
 .conteneur h3 .conteneur h5 {
     text-align: left;
     margin: 0px;
@@ -335,36 +377,62 @@ h2{
     flex-direction: flex-start;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    width: 300px;
+    min-width: 310px;
     height: 340px;
     object-fit: cover;
+    width: 100%;
+    margin-bottom: -4px;
 }
 .conteneur6 img{
     display: flex;
     flex-direction: flex-start;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    width: 300px;
-    height: 120px;
+    min-width: 310px;
+    height: 100px;
     object-fit: cover;
+    width: 100%;
 }
 .conteneur7 img{
     display: flex;
     flex-direction: flex-start;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    width: 300px;
+    min-width: 310px;
     height: 340px;
     object-fit: cover;
+    width: 100%;
+    margin-bottom: -4px;
 }
 .conteneur8 img{
     display: flex;
     flex-direction: flex-start;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    width: 300px;
-    height: 120px;
+    min-width: 310px;
+    height: 100px;
     object-fit: cover;
+    width: 100%;
+}
+.conteneur9 img{
+    display: flex;
+    flex-direction: flex-start;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    min-width: 310px;
+    height: 140px;
+    object-fit: cover;
+    width: 100%;
+}
+.conteneur10 img{
+    display: flex;
+    flex-direction: flex-start;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    min-width: 310px;
+    height: 140px;
+    object-fit: cover;
+    width: 100%;
 }
 
 h2{
@@ -521,6 +589,7 @@ button{
         flex-direction: column;
         width: 100%;
         margin: 0px;
+        padding: 5px;
     }
     .row{
         flex-direction: column;
@@ -543,6 +612,12 @@ button{
         padding: 0px;
     }
     .lodging-block4{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 14px 0px;
+        padding: 0px;
+    }
+    .lodging-block5{
         flex-direction: column;
         width: 100%;
         margin: 0px 0px 14px 0px;
@@ -572,19 +647,35 @@ button{
     .conteneur5678 img{
         height: 130px;
         width: 100%;
+        min-width: 100%;
+    }
+    .conteneur69 img{
+        width: 100%;
+        height: 130px;
+        margin: 0px;
+    }
+    .conteneur108 img{
+        width: 100%;
+        height: 130px;
         margin: 0px;
     }
     .conteneur5{
         margin: 0px 0px 5px 0px;
     }
     .conteneur6{
-        margin: 0px 0px 0px 0px;
+        margin: -10px 0px 0px 0px;
     }
     .conteneur7{
-        margin: 0px 0px 5px 0px;
+        margin: 76px 0px 5px 0px;
     }
     .conteneur8{
-        margin: 0px;
+        margin: 0px 0px 5px 0px;
+    }
+    .conteneur9{
+        margin: 0px 0px 0px 0px;
+    }
+    .conteneur10{
+        margin: -15px 0px 5px 0px;
     }
     h1{
         padding-left: 0px;
