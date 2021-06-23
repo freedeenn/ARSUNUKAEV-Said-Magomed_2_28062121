@@ -87,6 +87,14 @@ button{
 .borderNone{
   border-right: none;
 }
+.info{
+  margin-bottom: 0px;
+}
+.info i{
+  margin-bottom: 0px;
+}
+.info p{
+  margin-bottom: 0px;
 }
 h2{
   margin-bottom: 20px;
