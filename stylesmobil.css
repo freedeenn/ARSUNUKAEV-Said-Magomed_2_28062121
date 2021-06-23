@@ -5,23 +5,61 @@ body{
 #logo{
   flex-direction: column;
 }
+#logo img{
+  padding-top: 0%;
+}
+.menu-blue a:hover{
+  border-top: none;
+}
 .menu{
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: 104%;
+  margin-left: -12px;
+}
+.menu a{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-right: 15%;
+  margin: none;
+}
+.menu a:hover{
+  border-top: none;
+  
 }
 .blueclair{
-  padding-right: 25%;
+  border-bottom: solid #F2F2F2 2px ;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.blueclair:hover{
+  border-bottom: solid #0065FC 2px ;
+  padding-bottom: 20px;
+  width: 50%;
 }
 .black{
-  padding-right: 40%;
+  border-bottom: solid #F2F2F2 2px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.black:hover{
+  border-bottom: solid #0065FC 2px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+h1{
+  margin-top: 30px;
+  margin-bottom: 7px;
 }
 .btn, .btn1{
   flex-wrap: wrap;
   width: 100%;
 }  
+.btn1{
+  margin-left: 15px;
+}
 .filter{
-  margin: 0px 10px 10px 10px;
+  margin: 0px 10px 10px 0px;
 }
 .search-box{
   min-width: 90%;
