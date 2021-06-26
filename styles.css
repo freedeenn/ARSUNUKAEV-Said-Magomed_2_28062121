@@ -170,6 +170,7 @@ button{
 .btn{
   display: flex;
   margin-top: 10px;
+  font-weight: bold;
   
 }
 .btn1{
@@ -487,6 +488,11 @@ p{
   margin-left: 10px;
 }
 .star2{
+  margin-top: 40px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.star3{
   margin-top: 40px;
   font-size: 12px;
   margin-left: 10px;

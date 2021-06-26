@@ -158,6 +158,10 @@ h2{
   flex-direction: column;
   width: 100%;
 }
+.conteneur5678{
+  margin-left: -10px;
+  margin-right: 0px;
+}
 .conteneur5678 img{
   min-height: 120px;
   max-height: 120px;
@@ -187,7 +191,7 @@ h2{
   margin-top: 7px;
 }
 .conteneur9{
-  margin: 5px 0px 0px 0px;
+  margin: 5px 5px 0px 5px;
 }
 .conteneur10{
   margin-top: -20px;
