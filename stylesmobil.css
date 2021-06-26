@@ -148,6 +148,7 @@ h2{
 .lodging-block2{
   display: flex;
   text-align: left;
+  max-height: 140px;
 }
 .lodging-block3{
   flex-direction: column;
