@@ -1,5 +1,5 @@
 @media all and (max-width: 1024px){
-
+/*head*/
 #logo{
   flex-direction: column;
 }
@@ -48,6 +48,7 @@ h1{
   margin-top: 30px;
   margin-bottom: 7px;
 }
+/*header*/
 .btn, .btn1{
   flex-wrap: wrap;
   width: 100%;
@@ -90,6 +91,7 @@ button{
 .info p{
   margin-bottom: 0px;
 }
+/*body*/
 h2{
   margin-bottom: 20px;
   margin-top: 20px;
@@ -196,6 +198,7 @@ h2{
 .conteneur10{
   margin-top: -20px;
 }
+/*footer*/
 .pied{
   flex-direction: column;
   padding-left: 10px;
