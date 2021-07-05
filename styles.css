@@ -211,7 +211,7 @@ button{
 .lodging-block h3{
   text-align: left; 
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 17px;
 }
 .lodging-block h4{
   text-align: left; 
@@ -251,7 +251,7 @@ button{
 }
 .lodging-block2 h5{
   margin: 10px;
-  font-size: 16px;
+  font-size: 17px;
 }
 .lodging-block2 h6{
   font-size: 14px;
@@ -474,7 +474,7 @@ p{
   font-size: 12px;
 } 
 .star{
-  margin-top: 60px;
+  margin-top: 40px;
   font-size: 12px;
   margin-left: 10px;
 }
@@ -484,7 +484,7 @@ p{
   margin-left: 10px;
 }
 .star3{
-  margin-top: 60px;
+  margin-top: 40px;
   font-size: 12px;
   margin-left: 10px;
 }
