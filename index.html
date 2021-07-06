@@ -8,54 +8,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" media="screen and (min-width: 780px) and (max-width: 1400px)" href="reservia.medium.css">
-    <link rel="stylesheet" media="screen and (max-width: 780px)" href="stylesmobil.css">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 780px)" href="./styles/stylesmobil.css">
 </head>
 
 <body>
-    <header>         
-            <div id="logo">
-                <img src="images/@reservia.png" alt="Reservia" />
-                <div class="menu-blue">
-                    <a class="blue" href="#">S'inscrire</a>
-                </div>
-                <div class="menu">
-                    <a class="blueclair" href="#populair">Hébergements</a>
-                    <a class="black" href="#activ">Activités</a>
-                </div>
+    <header>
+        <!-- HEADER -->             
+        <div id="logo"> 
+            <img src="images/@reservia.png" alt="Reservia" />
+            <div class="menu-blue">
+                <a class="blue" href="#">S'inscrire</a>
             </div>
-    </header>        
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="subtitle">En plein centre ville ou en plein nature</p>
-        <div class="search-box"><i class="fas fa-map-marker-alt"></i>
-            <input type="text" class="search-txt borderNone" placeholder="Marseille, France">
-            <button class="recherch borderNone"><i class="fas fa-search"></i><span>Recharcher</span></button>
+            <!--MENU-->
+            <div class="menu">
+                <a class="blueclair" href="#populair">Hébergements</a>
+                <a class="black" href="#activ">Activités</a>
+            </div>
         </div>
-        <nav>
-            <div class="btn">
-                <p><strong>Filtres</strong></p>
-                <div class="btn1">
-                    <a class="filter"><i class="fas fa-money-bill-wave"></i>
-                        <strong>Économique</strong>
-                    </a>
-                    <a class="filter"><i class="fas fa-child"></i>
-                        <strong>Familial</strong>
-                    </a>
-                    <a class="filter"><i class="fas fa-heart"></i>
-                        <strong>Romantique</strong>
-                    </a>
-                    <a class="filter"><i class="fas fa-dog"></i>
-                        <strong>Animaux autorisés</strong>
-                    </a>
-                </div>
+    </header>
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    <p class="subtitle">En plein centre ville ou en plein nature</p>
+    <div class="search-box"><i class="fas fa-map-marker-alt"></i>
+        <input type="text" class="search-txt borderNone" placeholder="Marseille, France">
+        <button class="recherch borderNone"><i class="fas fa-search"></i><span>Recharcher</span></button>
+    </div>
+    <!-- MENU-FILTRES -->
+    <nav>
+        <div class="btn">
+            <p><strong>Filtres</strong></p>
+            <div class="btn1">
+                <a class="filter"><i class="fas fa-money-bill-wave"></i>
+                    <strong>Économique</strong>
+                </a>
+                <a class="filter"><i class="fas fa-child"></i>
+                    <strong>Familial</strong>
+                </a>
+                <a class="filter"><i class="fas fa-heart"></i>
+                    <strong>Romantique</strong>
+                </a>
+                <a class="filter"><i class="fas fa-dog"></i>
+                    <strong>Animaux autorisés</strong>
+                </a>
             </div>
-        </nav>
+        </div>
+    </nav>
 
     <div class="info">
         <i class="fas fa-info"></i>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
+    <!-- CONTENEUR-MAIN-HEBERGEMENT -->
     <section class="hebergement">
         <div class="conteneur">
             <h2 class="text-hebergement">Hébergement à Marseille</h2>
@@ -103,7 +106,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row">
                 <div class="lodging-block">
                     <a href="images/4.jpg"><img src="images/4.jpg" alt="" /></a>
@@ -149,13 +151,13 @@
                 </div>
             </div>
             <h5><a class="plus" href="#">Afficher plus</a></h5>
-
         </div>
-        <div class="conteneur4">
+        <!-- CONTENEUR-ASIDE -->
+        <aside class="conteneur4">
             <h2 id="populair">Les plus populaires<i class="fas fa-chart-line burs"></i></h2>
             <div class="lodging-block2">
                 <a href="images/7.jpg"><img src="images/7.jpg" alt="" class="flattont"></a>
-                <div class="marg">
+                <div class="marg-populaire">
                     <h5>Hôtel Le soleil du matin</h5>
                     <h6>à partir de 128€</h6>
                     <div class="star">
@@ -169,10 +171,10 @@
             </div>
             <div class="lodging-block2">
                 <a href="images/8.jpg"><img src="images/8.jpg" alt="" class="flattont"></a>
-                <div class="marg">
+                <div class="marg-populaire">
                     <h5>Au coeur de l'eau Chambres d'hôtes</h5>
                     <h6>à partir de 71€</h6>
-                    <div class="star2">
+                    <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -183,10 +185,10 @@
             </div>
             <div class="lodging-block2">
                 <a href="images/9.jpg"><img src="images/9.jpg" alt="" class="flattont"></a>
-                <div class="marg">
+                <div class="marg-populaire">
                     <h5>Hôtel Tout bleu et Blanc</h5>
                     <h6>à partir de 68€</h6>
-                    <div class="star3">
+                    <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -195,8 +197,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </aside>
     </section>
+    <!-- CONTENEUR-BOTTOM -->
     <section>
         <div class="conteneur5678">
             <div class="conteneur5">
@@ -260,7 +263,7 @@
             </div>
         </div>
     </section>
-
+    <!-- FOOTER -->
     <footer>
         <div class="pied">
             <div>

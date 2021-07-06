@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Raleway';
-  src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
-  src: url('Raleway/Raleway-VariableFont_wght.ttf');
+  src: url('../Raleway/Raleway-Italic-VariableFont_wght.ttf');
+  src: url('../Raleway/Raleway-VariableFont_wght.ttf');
 }
 *{
   font-family: 'Raleway';
@@ -189,8 +189,12 @@ button{
   margin-right: 5px;
   padding-top: 30px;
 }
-.marg{
+.marg, .marg-populaire{
   margin-left: 10px;
+}
+.marg-populaire{
+  display: flex;
+  flex-direction: column;
 }
 .row{
   display: flex;
@@ -476,23 +480,18 @@ p{
   font-size: 12px;
 } 
 .star{
-  margin-top: 40px;
+  margin-top: auto;
+  margin-bottom: 10px;
   font-size: 12px;
-  margin-left: 10px;
+  margin-left: 10px
 }
-.star2{
-  margin-top: 40px;
-  font-size: 12px;
-  margin-left: 10px;
-}
-.star3{
-  margin-top: 40px;
-  font-size: 12px;
-  margin-left: 10px;
+#populair,.burs{
+  display: flex;
+  flex-direction: row;
 }
 .burs{
-  position: absolute;
-  right: 40px;
+  margin-right: 10px;
+  margin-left: auto;
   color: black;
   text-align: right;
 }
